@@ -16,9 +16,9 @@ Step 1 in this repository focuses on the foundational concept of linear regressi
 
 ### How It Works:
 
-    The script generates a cloud of data points spread uniformly along a line with some added random noise.
-    A linear regression model is then iteratively applied to this data. With each iteration, the model includes one additional data point from the set.
-    After incorporating each new point, the regression line updates, reflecting the model's changing understanding of the data.
+- The script generates a cloud of data points spread uniformly along a line with some added random noise.
+- A linear regression model is then iteratively applied to this data. With each iteration, the model includes one additional data point from the set.
+- After incorporating each new point, the regression line updates, reflecting the model's changing understanding of the data.
 
 ### Visualization:
 The key highlight is the dynamic GIF that visualizes this process. As you watch the GIF, you'll see the linear regression line adjusting with each new data point, providing a clear visual representation of how linear regression models adapt and find the best-fit line through data. The GIF effectively demonstrates the convergence of the model as more data is considered.
